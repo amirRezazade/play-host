@@ -1,0 +1,11 @@
+@import url(../styles/fonts.css);
+
+
+
+@theme {
+  --font-iran-sans: "iran-sans";
+  --font-iran-bold: "iran-bold";
+  --font-kalameh: "kalameh";
+  --font-kalameh-bold: "kalameh-bold";
+}
+@import "tailwindcss";
