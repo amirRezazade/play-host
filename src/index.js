@@ -119,22 +119,25 @@ toggleMenuBtn.addEventListener('click', ()=>{
 
 navItems.forEach((elm) => {
   elm.addEventListener("click", (s) => {
-    if (
-      (s.target.nodeName == "A" || s.target.nodeName == "svg") &&
-      s.target.parentElement == elm
-    ) {
-      console.log(2);
-
-      navItems.forEach((e) => {
-        e.style.height = "48px";
-      });
-      let elemHeight = elm.scrollHeight;
-      if (elm.getBoundingClientRect().height < 50) {
-        elm.style.height = elemHeight + "px";
-        elm.classList.remove("max-h-12");
-      } else {
-        elm.style.height = "48px";
+    if(window.innerWidth<1024){
+      if (
+        (s.target.nodeName == "A" || s.target.nodeName == "svg") &&
+        s.target.parentElement == elm
+      ) {
+        console.log(2);
+  
+        navItems.forEach((e) => {
+          e.style.height = "48px";
+        });
+        let elemHeight = elm.scrollHeight;
+        if (elm.getBoundingClientRect().height < 50) {
+          elm.style.height = elemHeight + "px";
+          elm.classList.remove("max-h-12");
+        } else {
+          elm.style.height = "48px";
+        }
       }
     }
+  
   });
 });

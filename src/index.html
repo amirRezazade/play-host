@@ -7,8 +7,8 @@
   </head>
   <body dir="rtl" class="font-[iran-sans]">
     <header class="h-screen w-screen relative overflow-hidden">
-      <nav class="bg-slate-950 py-0.5 px-6 flex justify-between items-center text-white select-none ">
-        <a href="#" class="py-3 ">
+      <nav class="bg-slate-950 py-0.5 px-6 flex justify-between items-center static top-0 z-50 text-white select-none lg:bg-transparent    xl:justify-evenly 2xl:px-20">
+        <a href="#" class="py-3 z-50">
           <img class="md:hidden" src="../img/navbar/logo-mobile.png" alt="" />
           <img
             class="hidden md:inline-block"
@@ -16,11 +16,12 @@
             alt=""
           />
         </a>
-        <ul id="toggle-menu"  class= "scrollbar-hidden transition-all z-50 duration-700 ease-out bg-slate-950 text-sm absolute w-screen h-screen overflow-y-auto  divide-y-1 divide-gray-800 top-14 right-0 pt-10 pb-25 px-5 md:pr-12 translate-x-3/2">
+        <ul id="toggle-menu"  class= "scrollbar-hidden transition-all z-50 duration-700 ease-out bg-slate-950 text-sm absolute w-screen h-screen overflow-y-auto  divide-y-1 divide-gray-800 top-14 right-0 pt-10 pb-25 px-5 md:pr-12 translate-x-3/2 lg:static lg:overflow-visible lg:translate-0 lg:bg-transparent lg:flex  lg:gap-1.5 lg:w-auto lg:divide-y-0 lg:h-auto lg:my-0 lg:py-3 lg:px-0 xl:gap-4" >
           
-          <li id="nav-items" class=" max-h-12 overflow-hidden w-11/12 flex flex-wrap justify-between items-center cursor-pointer transition-all duration-300 ">
-            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3">دسته بندی ها</a>
+          <li id="nav-items" class=" max-h-12 overflow-hidden w-11/12 flex flex-wrap justify-between items-center cursor-pointer transition-all duration-300 lg:overflow-visible  lg:w-auto lg:gap-0.5 lg:pr-1.5 lg:flex-nowrap lg:relative lg:hover:text-white group">
+            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3 lg:grow-0 lg:hover:text-white">دسته بندی ها</a>
             <svg
+            class="lg:group-hover:rotate-180 transition-all duration-300"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               width="25"
@@ -30,18 +31,18 @@
                 d="M12 14.071L7.429 9.5 5.929 11 12 17.071 18.071 11 16.571 9.5z"
                 fill="#6D28D9"
               />
-            </svg>
-            <ul class=" w-1/1  pr-9 top-1/1 flex flex-col gap-0 divide-y-1 divide-gray-800 ">
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">بازی های موبایلی</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">ایکس باکس وان</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">خرید اکانت پرمیوم</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">بازی های استیم و اوریجین</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">اکانت قانونی پلی استیشن</a></li>
+            <ul class=" w-1/1  pr-9  flex flex-col gap-0 transition-all duration-300 divide-y-1 divide-gray-800 lg:z-30 lg:absolute lg:top-4/2 lg:bg-slate-950 lg:px-0 lg:h-auto lg:w-56 lg:border-1 lg:border-slate-950 lg:opacity-0 lg:invisible lg:group-hover:top-1/1 lg:group-hover:opacity-100 lg:group-hover:visible">
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white"><a href="#">بازی های موبایلی</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white"><a href="#">ایکس باکس وان</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white"><a href="#">خرید اکانت پرمیوم</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white"><a href="#">بازی های استیم و اوریجین</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white"><a href="#">اکانت قانونی پلی استیشن</a></li>
             </ul>
           </li>
-          <li id="nav-items" class=" max-h-12 overflow-hidden w-11/12 flex flex-wrap justify-between items-center cursor-pointer transition-all duration-300 ">
-            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3">سرور های بازی</a>
-            <svg
+          <li id="nav-items" class=" max-h-12 overflow-hidden w-11/12 flex flex-wrap justify-between items-center cursor-pointer transition-all duration-300 lg:overflow-visible  lg:w-auto lg:gap-0.5 lg:pr-1.5 lg:flex-nowrap lg:relative lg:hover:text-white group ">
+            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3 lg:grow-0 lg:hover:text-white">سرور های بازی</a>
+             <svg
+            class="lg:group-hover:rotate-180 transition-all duration-300"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               width="25"
@@ -52,19 +53,20 @@
                 fill="#6D28D9"
               />
             </svg>
-            <ul class=" w-1/1  pr-9 top-1/1 flex flex-col gap-0 divide-y-1 divide-gray-800">
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">سرور بازی اول</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">سرور بازی دوم</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">جدول قیمت گزاری اول</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">جدول قیمت گزاری دوم</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">جدول قیمت گزاری سوم</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">جدول قیمت گزاری چهارم</a></li>
+            <ul class=" w-1/1  pr-9  flex flex-col gap-0 transition-all duration-300 divide-y-1 divide-gray-800 lg:z-30 lg:absolute lg:top-4/2 lg:bg-slate-950 lg:px-0 lg:h-auto lg:w-56 lg:border-1 lg:border-slate-950 lg:opacity-0 lg:invisible lg:group-hover:top-1/1 lg:group-hover:opacity-100 lg:group-hover:visible">
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white "><a href="#">سرور بازی اول</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white "><a href="#">سرور بازی دوم</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white "><a href="#">جدول قیمت گزاری اول</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white "><a href="#">جدول قیمت گزاری دوم</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white "><a href="#">جدول قیمت گزاری سوم</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white "><a href="#">جدول قیمت گزاری چهارم</a></li>
 
             </ul>
           </li>
-          <li id="nav-items" class=" max-h-12 overflow-hidden w-11/12 flex flex-wrap justify-between items-center cursor-pointer transition-all duration-300 ">
-            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3">بازی ها</a>
+          <li id="nav-items" class=" max-h-12 overflow-hidden w-11/12 flex flex-wrap justify-between items-center cursor-pointer transition-all duration-300 lg:overflow-visible  lg:w-auto lg:gap-0.5 lg:pr-1.5 lg:flex-nowrap lg:relative lg:hover:text-white group">
+            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3 lg:grow-0 lg:hover:text-white">بازی ها</a>
             <svg
+            class="lg:group-hover:rotate-180 transition-all duration-300"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               width="25"
@@ -75,52 +77,52 @@
                 fill="#6D28D9"
               />
             </svg>
-            <ul class=" w-1/1 mt-1  pr-9 top-1/1 flex flex-col gap-1">
-              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+            <ul class="  w-1/1  pr-9  flex flex-col gap-0 transition-all duration-300 lg:rounded-lg lg:z-30 lg:absolute lg:top-4/2 lg:-left-6/1 lg:bg-slate-950 lg:p-5 lg:h-auto lg:flex lg:flex-row lg:flex-wrap lg:gap-3 lg:w-4xl lg:border-1 lg:border-slate-950 lg:opacity-0 lg:invisible lg:group-hover:top-1/1 lg:group-hover:opacity-100 lg:group-hover:visible xl:w-6xl  xl:-left-8/1">
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700 lg:w-1/5 lg:shrink-0 lg:grow">
                 <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/1.webp" alt=""></div>
                 <a href="#" class="">تندر و شهر</a>
               </li>
-              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700 lg:w-1/5 lg:shrink-0 lg:grow">
                 <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/2.webp" alt=""></div>
                 <a href="#" class="">مسابقه مرموز</a>
               </li>
-              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700 lg:w-1/5 lg:shrink-0 lg:grow">
                 <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/3.webp" alt=""></div>
                 <a href="#" class="">خشم خاموش</a>
               </li>
-              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700 lg:w-1/5 lg:shrink-0 lg:grow">
                 <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/4.webp" alt=""></div>
                 <a href="#" class="">سیاه چال فانک</a>
               </li>
-              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700 lg:w-1/5 lg:shrink-0 lg:grow">
                 <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/5.webp" alt=""></div>
                 <a href="#" class="">اودیسه کهکشانی</a>
               </li>
-              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700 lg:w-1/5 lg:shrink-0 lg:grow">
                 <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/6.webp" alt=""></div>
                 <a href="#" class="">افسانه های جنگ</a>
               </li>
-              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700 lg:w-1/5 lg:shrink-0 lg:grow">
                 <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/7.webp" alt=""></div>
-                <a href="#" class="">انقلاب راه مسابقه/a>
+                <a href="#" class="">انقلاب راه مسابقه</a>
               </li>
-              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700 lg:w-1/5 lg:shrink-0 lg:grow">
                 <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/8.webp" alt=""></div>
                 <a href="#" class="">اودیسه ستاره ای</a>
               </li>
-              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700 lg:w-1/5 lg:shrink-0 lg:grow">
                 <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/9.webp" alt=""></div>
                 <a href="#" class="">سایبر نکسوس</a>
               </li>
-              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700 lg:w-1/5 lg:shrink-0 lg:grow">
                 <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/10.webp" alt=""></div>
                 <a href="#" class="">قلمرو های باستانی</a>
               </li>
-              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700 lg:w-1/5 lg:shrink-0 lg:grow">
                 <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/11.webp" alt=""></div>
                 <a href="#" class="">فوتبال بیگانه</a>
               </li>
-              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700 lg:w-1/5 lg:shrink-0 lg:grow">
                 <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/12.webp" alt=""></div>
                 <a href="#" class="">سایه شب</a>
               </li>
@@ -128,12 +130,13 @@
             
             </ul>
           </li>
-          <li id="nav-items" class=" max-h-12 overflow-hidden w-11/12 flex flex-wrap justify-between items-center cursor-pointer transition-all duration-300 ">
-            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3">مکان ها</a>          
+          <li id="nav-items" class=" max-h-12 overflow-hidden w-11/12 flex flex-wrap justify-between items-center cursor-pointer transition-all duration-300  lg:w-auto lg:gap-0.5 lg:pr-1.5 lg:flex-nowrap ">
+            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3 lg:grow-0 lg:hover:text-white ">مکان ها</a>          
           </li>
-          <li id="nav-items" class=" max-h-12 overflow-hidden w-11/12 flex flex-wrap justify-between items-center cursor-pointer transition-all duration-300 ">
-            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3">پشتیبانی</a>
-            <svg
+          <li id="nav-items" class=" max-h-12 overflow-hidden w-11/12 flex flex-wrap justify-between items-center cursor-pointer transition-all duration-300 lg:overflow-visible  lg:w-auto lg:gap-0.5 lg:pr-1.5 lg:flex-nowrap lg:relative lg:hover:text-white group ">
+            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3 lg:grow-0 lg:hover:text-white">پشتیبانی</a>
+             <svg
+            class="lg:group-hover:rotate-180 transition-all duration-300"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               width="25"
@@ -144,15 +147,16 @@
                 fill="#6D28D9"
               />
             </svg>
-            <ul class=" w-1/1  pr-9 top-1/1 flex flex-col gap-0 divide-y-1 divide-gray-800">
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">پایگاه دانش</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">سوالات متداول</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">تماس با ما</a></li>
+            <ul class=" w-1/1  pr-9  flex flex-col gap-0 transition-all duration-300 divide-y-1 divide-gray-800 lg:z-30 lg:absolute lg:top-4/2 lg:bg-slate-950 lg:px-0 lg:h-auto lg:w-56 lg:border-1 lg:border-slate-950 lg:opacity-0 lg:invisible lg:group-hover:top-1/1 lg:group-hover:opacity-100 lg:group-hover:visible">
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white"><a href="#">پایگاه دانش</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white"><a href="#">سوالات متداول</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white"><a href="#">تماس با ما</a></li>
             </ul>
           </li>
-          <li id="nav-items" class=" max-h-12 overflow-hidden w-11/12 flex flex-wrap justify-between items-center cursor-pointer transition-all duration-300 ">
-            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3">شرکت</a>
-            <svg
+          <li id="nav-items" class=" max-h-12 overflow-hidden w-11/12 flex flex-wrap justify-between items-center cursor-pointer transition-all duration-300 lg:overflow-visible  lg:w-auto lg:gap-0.5 lg:pr-1.5 lg:flex-nowrap lg:relative lg:hover:text-white group">
+            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3 lg:grow-0 lg:hover:text-white">شرکت</a>
+             <svg
+            class="lg:group-hover:rotate-180 transition-all duration-300"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               width="25"
@@ -163,16 +167,17 @@
                 fill="#6D28D9"
               />
             </svg>
-            <ul class=" w-1/1  pr-9 top-1/1 flex flex-col gap-0 divide-y-1 divide-gray-800">
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">درباره ما</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">بازار یابی</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">اخبار</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">جزئیات خبر</a></li>
+            <ul class=" w-1/1  pr-9  flex flex-col gap-0 transition-all duration-300 divide-y-1 divide-gray-800 lg:z-30 lg:absolute lg:top-4/2 lg:bg-slate-950 lg:px-0 lg:h-auto lg:w-56 lg:border-1 lg:border-slate-950 lg:opacity-0 lg:invisible lg:group-hover:top-1/1 lg:group-hover:opacity-100 lg:group-hover:visible">
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white"><a href="#">درباره ما</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white"><a href="#">بازار یابی</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white"><a href="#">اخبار</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white"><a href="#">جزئیات خبر</a></li>
             </ul>
           </li>
-          <li id="nav-items" class=" max-h-12 overflow-hidden w-11/12 flex flex-wrap justify-between items-center cursor-pointer transition-all duration-300 ">
-            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3">صفحات بیشتر</a>
-            <svg
+          <li id="nav-items" class="max-h-12 overflow-hidden w-11/12 flex flex-wrap justify-between items-center cursor-pointer transition-all duration-300 lg:overflow-visible  lg:w-auto lg:gap-0.5 lg:pr-1.5 lg:flex-nowrap lg:relative lg:hover:text-white group ">
+            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3 lg:grow-0 lg:hover:text-white">صفحات بیشتر</a>
+             <svg
+            class="lg:group-hover:rotate-180 transition-all duration-300"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               width="25"
@@ -183,14 +188,14 @@
                 fill="#6D28D9"
               />
             </svg>
-            <ul class=" w-1/1  pr-9 top-1/1 flex flex-col gap-0 divide-y-1 divide-gray-800">
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">المنت ها</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">ورود</a></li>
-              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">ثبت نام</a></li>
+            <ul class=" w-1/1  pr-9  flex flex-col gap-0 transition-all duration-300 divide-y-1 divide-gray-800 lg:z-30 lg:absolute lg:top-4/2 lg:bg-slate-950 lg:px-0 lg:h-auto lg:w-56 lg:border-1 lg:border-slate-950 lg:opacity-0 lg:invisible lg:group-hover:top-1/1 lg:group-hover:opacity-100 lg:group-hover:visible">
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white"><a href="#">المنت ها</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white"><a href="#">ورود</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300 lg:px-3 lg:hover:bg-violet-700 lg:hover:text-white"><a href="#">ثبت نام</a></li>
             </ul>
           </li>
         </ul>
-        <span id="toggle-menu-btn" class="cursor-pointer lg:hidden">
+        <span id="toggle-menu-btn" class="cursor-pointer lg:hidden z-50">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 64 64"
@@ -280,7 +285,7 @@
           </svg>
         </span>
         <a
-          class="custom-shadow hidden group overflow-hidden max-h-10 py-1.5 px-5 text-base rounded border-2 border-violet-700 font-[kalameh] transition-all duration-200 ease-in hover:bg-violet-700 hover:shadow-2xl hover:shadow-violet-700 lg:inline-block"
+          class="custom-shadow hidden group overflow-hidden max-h-10 py-1.5 px-5 z-50 text-base rounded border-2 border-violet-700 font-[kalameh] transition-all duration-200 ease-in hover:bg-violet-700 hover:shadow-2xl hover:shadow-violet-700 lg:inline-block"
           href="#"
         >
           <span
@@ -291,11 +296,44 @@
           </span>
         </a>
       </nav>
-      <!-- <div class="absolute w-1/1 h-1/1 " style="background-color: rgba(0, 0, 0, 0.237);"></div> -->
-      <div class="flex min-h-screen overflow-auto">
-        <div
-          class="w-screen h-screen shrink-0 bg-[url(../img/header/1.webp)] bg-cover"
-        ></div>
+      <div class="absolute min-h-screen w-screen top-0 flex items-center" style="background-color: rgba(0, 0, 0, 0.237);">
+        <div class="w-1/1 flex px-3 justify-between">
+          <span class="cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="50" height="50">
+              <linearGradient id="RAeVX7AeerTpT9bZbDDc3a" x1="32" x2="32" y1="4.667" y2="58.458" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                <stop offset="0" stop-color="#1a6dff"/>
+                <stop offset="1" stop-color="#c822ff"/>
+              </linearGradient>
+              <path fill="url(#RAeVX7AeerTpT9bZbDDc3a)" d="M26.781,58H14.007c-0.814,0-1.542-0.486-1.854-1.238c-0.311-0.751-0.14-1.606,0.436-2.182 l21.915-21.871c0.188-0.189,0.294-0.441,0.294-0.709s-0.105-0.52-0.295-0.71L12.59,9.42c-0.576-0.575-0.747-1.431-0.437-2.182 C12.465,6.486,13.192,6,14.007,6h12.774c0.791,0,1.564,0.32,2.124,0.878l21.627,21.586C51.478,29.408,52,30.664,52,32 s-0.521,2.592-1.468,3.536L28.905,57.122C28.346,57.68,27.572,58,26.781,58z M14.007,8c-0.008,0-0.011,0.001-0.011,0.001 l21.92,21.874c1.172,1.172,1.172,3.078,0.001,4.249L14.002,55.996L26.781,56c0.265,0,0.524-0.107,0.712-0.294L49.12,34.12 C49.687,33.554,50,32.801,50,32s-0.313-1.554-0.88-2.12L27.493,8.294C27.305,8.107,27.046,8,26.781,8H14.007z"/>
+              <linearGradient id="RAeVX7AeerTpT9bZbDDc3b" x1="32.384" x2="32.384" y1="8.333" y2="56.094" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                <stop offset="0" stop-color="#6dc7ff"/>
+                <stop offset="1" stop-color="#e6abff"/>
+              </linearGradient>
+              <path fill="url(#RAeVX7AeerTpT9bZbDDc3b)" d="M44.71,34.12L25.111,53.709C24.925,53.895,24.672,54,24.408,54H19.18l20.576-20.586 c0.781-0.781,0.781-2.048,0-2.829L19.18,10h5.225c0.265,0,0.52,0.105,0.708,0.293L44.71,29.88C45.88,31.05,45.88,32.95,44.71,34.12z"/>
+            </svg>
+          </span>
+          <span class="cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="50" height="50">
+              <linearGradient id="oeSK2TF1wiguYWdafvfBTa" x1="32" x2="32" y1="4.833" y2="59.946" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                <stop offset="0" stop-color="#1a6dff"/>
+                <stop offset="1" stop-color="#c822ff"/>
+              </linearGradient>
+              <path fill="url(#oeSK2TF1wiguYWdafvfBTa)" d="M49.993,58H37.219c-0.791,0-1.564-0.32-2.124-0.878L13.468,35.536 C12.522,34.592,12,33.337,12,32.001s0.521-2.592,1.468-3.537L35.095,6.879C35.653,6.32,36.428,6,37.219,6h12.774 c0.814,0,1.542,0.486,1.854,1.238c0.311,0.751,0.14,1.606-0.436,2.182L29.496,31.292c-0.189,0.188-0.294,0.44-0.294,0.709 c0,0.268,0.104,0.52,0.295,0.708L51.41,54.58c0.576,0.575,0.747,1.431,0.437,2.182C51.535,57.514,50.808,58,49.993,58z M37.219,8 c-0.265,0-0.524,0.107-0.711,0.294L14.88,29.88C14.313,30.446,14,31.2,14,32.001s0.313,1.553,0.88,2.119l21.627,21.586 C36.695,55.893,36.954,56,37.219,56h12.774L28.084,34.125c-0.568-0.567-0.882-1.322-0.882-2.124c0-0.803,0.313-1.558,0.881-2.125 L49.998,8.004L49.993,8H37.219z"/>
+              <linearGradient id="oeSK2TF1wiguYWdafvfBTb" x1="31.616" x2="31.616" y1="9.167" y2="55.237" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                <stop offset="0" stop-color="#6dc7ff"/>
+                <stop offset="1" stop-color="#e6abff"/>
+              </linearGradient>
+              <path fill="url(#oeSK2TF1wiguYWdafvfBTb)" d="M19.29,34.12l19.599,19.588C39.075,53.895,39.328,54,39.592,54h5.228L24.244,33.415 c-0.781-0.781-0.781-2.048,0-2.829L44.82,10h-5.225c-0.265,0-0.52,0.106-0.708,0.293L19.29,29.88 C18.12,31.05,18.12,32.95,19.29,34.12z"/>
+            </svg>
+          </span>
+        </div>
+        <div class="absolute bottom-12 left-12">
+          <span class="text-white text-4xl">1</span>
+          <span class="text-stone-400 text-xl">/ 4</span>
+        </div>
+      </div>
+      <div class="flex min-h-screen w-screen top-0 overflow-auto absolute -z-30">
+        <div class="w-screen h-screen shrink-0 bg-[url(../img/header/1.webp)] bg-cover"></div>
       </div>
     </header>
 
