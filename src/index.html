@@ -1,41 +1,302 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body>
-    <p>
-      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
-      طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان
-      که لازم است
-    </p>
-    <p class="font-[iran-sans]">
-      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
-      طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان
-      که لازم است
-    </p>
-    <p class="font-[iran-bold]">
-      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
-      طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان
-      که لازم است
-    </p>
-    <br />
-    <p class="text-blue-600">
-      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
-      طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان
-      که لازم است
-    </p>
-    <p class="font-[kalameh]">
-      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
-      طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان
-      که لازم است
-    </p>
-    <p class="font-[kalameh-bold]">
-      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
-      طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان
-      که لازم است
-    </p>
+  <body dir="rtl" class="font-[iran-sans]">
+    <header class="h-screen w-screen relative overflow-hidden">
+      <nav class="bg-slate-950 py-0.5 px-6 flex justify-between items-center text-white">
+        <a href="#" class="py-3">
+          <img class="md:hidden" src="../img/navbar/logo-mobile.png" alt="" />
+          <img
+            class="hidden md:inline-block"
+            src="../img/navbar/logo.png"
+            alt=""
+          />
+        </a>
+        <ul class="bg-slate-950  text-sm absolute w-screen h-screen overflow-y-auto divide-y-1 divide-gray-800 top-14 right-0 pt-10 pb-25 px-5">
+          
+          <li class=" w-11/12 flex flex-wrap justify-between items-center cursor-pointer ">
+            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3">دسته بندی ها</a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="25"
+              height="25"
+            >
+              <path
+                d="M12 14.071L7.429 9.5 5.929 11 12 17.071 18.071 11 16.571 9.5z"
+                fill="#6D28D9"
+              />
+            </svg>
+            <ul class=" w-1/1  pr-9 top-1/1 flex flex-col gap-0 divide-y-1 divide-gray-800">
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">بازی های موبایلی</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">ایکس باکس وان</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">خرید اکانت پرمیوم</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">بازی های استیم و اوریجین</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">اکانت قانونی پلی استیشن</a></li>
+            </ul>
+          </li>
+          <li class=" w-11/12 flex flex-wrap justify-between items-center cursor-pointer ">
+            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3">سرور های بازی</a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="25"
+              height="25"
+            >
+              <path
+                d="M12 14.071L7.429 9.5 5.929 11 12 17.071 18.071 11 16.571 9.5z"
+                fill="#6D28D9"
+              />
+            </svg>
+            <ul class=" w-1/1  pr-9 top-1/1 flex flex-col gap-0 divide-y-1 divide-gray-800">
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">سرور بازی اول</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">سرور بازی دوم</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">جدول قیمت گزاری اول</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">جدول قیمت گزاری دوم</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">جدول قیمت گزاری سوم</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">جدول قیمت گزاری چهارم</a></li>
+
+            </ul>
+          </li>
+          <li class=" w-11/12 flex flex-wrap justify-between items-center cursor-pointer ">
+            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3">بازی ها</a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="25"
+              height="25"
+            >
+              <path
+                d="M12 14.071L7.429 9.5 5.929 11 12 17.071 18.071 11 16.571 9.5z"
+                fill="#6D28D9"
+              />
+            </svg>
+            <ul class=" w-1/1  pr-9 top-1/1 flex flex-col gap-1">
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+                <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/1.webp" alt=""></div>
+                <a href="#" class="">تندر و شهر</a>
+              </li>
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+                <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/2.webp" alt=""></div>
+                <a href="#" class="">مسابقه مرموز</a>
+              </li>
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+                <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/3.webp" alt=""></div>
+                <a href="#" class="">خشم خاموش</a>
+              </li>
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+                <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/4.webp" alt=""></div>
+                <a href="#" class="">سیاه چال فانک</a>
+              </li>
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+                <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/5.webp" alt=""></div>
+                <a href="#" class="">اودیسه کهکشانی</a>
+              </li>
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+                <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/6.webp" alt=""></div>
+                <a href="#" class="">افسانه های جنگ</a>
+              </li>
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+                <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/7.webp" alt=""></div>
+                <a href="#" class="">انقلاب راه مسابقه/a>
+              </li>
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+                <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/8.webp" alt=""></div>
+                <a href="#" class="">اودیسه ستاره ای</a>
+              </li>
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+                <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/9.webp" alt=""></div>
+                <a href="#" class="">سایبر نکسوس</a>
+              </li>
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+                <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/10.webp" alt=""></div>
+                <a href="#" class="">قلمرو های باستانی</a>
+              </li>
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+                <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/11.webp" alt=""></div>
+                <a href="#" class="">فوتبال بیگانه</a>
+              </li>
+              <li class="cursor-pointer py-3 text-stone-400 rounded-lg px-3 flex items-center gap-4 transition-all duration-300 hover:text-white hover:bg-violet-700">
+                <div class="max-w-10 max-h-10 rounded-md overflow-hidden"><img class="w-1/1 h-1/1" src="../img/navbar/12.webp" alt=""></div>
+                <a href="#" class="">سایه شب</a>
+              </li>
+          
+            
+            </ul>
+          </li>
+          <li class=" w-11/12 flex flex-wrap justify-between items-center cursor-pointer ">
+            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3">مکان ها</a>          
+          </li>
+          <li class=" w-11/12 flex flex-wrap justify-between items-center cursor-pointer ">
+            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3">پشتیبانی</a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="25"
+              height="25"
+            >
+              <path
+                d="M12 14.071L7.429 9.5 5.929 11 12 17.071 18.071 11 16.571 9.5z"
+                fill="#6D28D9"
+              />
+            </svg>
+            <ul class=" w-1/1  pr-9 top-1/1 flex flex-col gap-0 divide-y-1 divide-gray-800">
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">پایگاه دانش</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">سوالات متداول</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">تماس با ما</a></li>
+            </ul>
+          </li>
+          <li class=" w-11/12 flex flex-wrap justify-between items-center cursor-pointer ">
+            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3">شرکت</a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="25"
+              height="25"
+            >
+              <path
+                d="M12 14.071L7.429 9.5 5.929 11 12 17.071 18.071 11 16.571 9.5z"
+                fill="#6D28D9"
+              />
+            </svg>
+            <ul class=" w-1/1  pr-9 top-1/1 flex flex-col gap-0 divide-y-1 divide-gray-800">
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">درباره ما</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">بازار یابی</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">اخبار</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">جزئیات خبر</a></li>
+            </ul>
+          </li>
+          <li class=" w-11/12 flex flex-wrap justify-between items-center cursor-pointer ">
+            <a href="#" class="grow transition-all duration-300 hover:text-violet-300 py-3">صفحات بیشتر</a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="25"
+              height="25"
+            >
+              <path
+                d="M12 14.071L7.429 9.5 5.929 11 12 17.071 18.071 11 16.571 9.5z"
+                fill="#6D28D9"
+              />
+            </svg>
+            <ul class=" w-1/1  pr-9 top-1/1 flex flex-col gap-0 divide-y-1 divide-gray-800">
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">المنت ها</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">ورود</a></li>
+              <li class="cursor-pointer py-3 block transition-all duration-300 hover:text-violet-300"><a href="#">ثبت نام</a></li>
+            </ul>
+          </li>
+        </ul>
+        <span class="cursor-pointer lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+            width="40"
+            height="40"
+          >
+            <linearGradient
+              id="BTq72ScaTZ1UBmT8omo2pa"
+              x1="32"
+              x2="32"
+              y1="5.333"
+              y2="59.867"
+              gradientUnits="userSpaceOnUse"
+              spreadMethod="reflect"
+            >
+              <stop offset="0" stop-color="#1a6dff" />
+              <stop offset="1" stop-color="#c822ff" />
+            </linearGradient>
+            <path
+              fill="url(#BTq72ScaTZ1UBmT8omo2pa)"
+              d="M32,58C17.663,58,6,46.337,6,32S17.663,6,32,6s26,11.663,26,26S46.337,58,32,58z M32,8 C18.767,8,8,18.767,8,32s10.767,24,24,24s24-10.767,24-24S45.233,8,32,8z"
+            />
+            <linearGradient
+              id="BTq72ScaTZ1UBmT8omo2pb"
+              x1="32"
+              x2="32"
+              y1="5.333"
+              y2="59.867"
+              gradientUnits="userSpaceOnUse"
+              spreadMethod="reflect"
+            >
+              <stop offset="0" stop-color="#1a6dff" />
+              <stop offset="1" stop-color="#c822ff" />
+            </linearGradient>
+            <path
+              fill="url(#BTq72ScaTZ1UBmT8omo2pb)"
+              d="M32,52c-11.028,0-20-8.972-20-20s8.972-20,20-20s20,8.972,20,20S43.028,52,32,52z M32,14 c-9.925,0-18,8.075-18,18s8.075,18,18,18s18-8.075,18-18S41.925,14,32,14z"
+            />
+            <linearGradient
+              id="BTq72ScaTZ1UBmT8omo2pc"
+              x1="32"
+              x2="32"
+              y1="21.5"
+              y2="26.336"
+              gradientUnits="userSpaceOnUse"
+              spreadMethod="reflect"
+            >
+              <stop offset="0" stop-color="#6dc7ff" />
+              <stop offset="1" stop-color="#e6abff" />
+            </linearGradient>
+            <path
+              fill="url(#BTq72ScaTZ1UBmT8omo2pc)"
+              d="M42,25c0,0.552-0.448,1-1,1H23c-0.552,0-1-0.448-1-1v-2c0-0.552,0.448-1,1-1h18 c0.552,0,1,0.448,1,1V25z"
+            />
+            <linearGradient
+              id="BTq72ScaTZ1UBmT8omo2pd"
+              x1="32"
+              x2="32"
+              y1="29.333"
+              y2="34.5"
+              gradientUnits="userSpaceOnUse"
+              spreadMethod="reflect"
+            >
+              <stop offset="0" stop-color="#6dc7ff" />
+              <stop offset="1" stop-color="#e6abff" />
+            </linearGradient>
+            <path
+              fill="url(#BTq72ScaTZ1UBmT8omo2pd)"
+              d="M42,33c0,0.552-0.448,1-1,1H23c-0.552,0-1-0.448-1-1v-2c0-0.552,0.448-1,1-1h18 c0.552,0,1,0.448,1,1V33z"
+            />
+            <linearGradient
+              id="BTq72ScaTZ1UBmT8omo2pe"
+              x1="32"
+              x2="32"
+              y1="37"
+              y2="41.337"
+              gradientUnits="userSpaceOnUse"
+              spreadMethod="reflect"
+            >
+              <stop offset="0" stop-color="#6dc7ff" />
+              <stop offset="1" stop-color="#e6abff" />
+            </linearGradient>
+            <path
+              fill="url(#BTq72ScaTZ1UBmT8omo2pe)"
+              d="M42,41c0,0.552-0.448,1-1,1H23c-0.552,0-1-0.448-1-1v-2c0-0.552,0.448-1,1-1h18 c0.552,0,1,0.448,1,1V41z"
+            />
+          </svg>
+        </span>
+        <a
+          class="hidden group overflow-hidden max-h-10 py-1.5 px-5 text-base rounded border-2 border-violet-700 font-[kalameh] transition-all duration-200 ease-in hover:bg-violet-700 hover:shadow-2xl hover:shadow-violet-700 lg:inline-block"
+          href="#"
+        >
+          <span
+            class="flex flex-col gap-1 transition duration-300 -translate-y-3/5 group-hover:translate-y-0"
+          >
+            <span>خرید سرور</span>
+            <span>خرید سرور</span>
+          </span>
+        </a>
+      </nav>
+      <!-- <div class="absolute w-1/1 h-1/1 " style="background-color: rgba(0, 0, 0, 0.237);"></div> -->
+      <div class="flex min-h-screen overflow-auto">
+        <div
+          class="w-screen h-screen shrink-0 bg-[url(../img/header/1.webp)] bg-cover"
+        ></div>
+      </div>
+    </header>
   </body>
 </html>
