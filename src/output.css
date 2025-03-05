@@ -249,6 +249,12 @@
   .top-1\/2 {
     top: calc(1/2 * 100%);
   }
+  .top-12 {
+    top: calc(var(--spacing) * 12);
+  }
+  .top-13 {
+    top: calc(var(--spacing) * 13);
+  }
   .top-14 {
     top: calc(var(--spacing) * 14);
   }
@@ -874,6 +880,9 @@
   }
   .py-1\.5 {
     padding-block: calc(var(--spacing) * 1.5);
+  }
+  .py-2 {
+    padding-block: calc(var(--spacing) * 2);
   }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);

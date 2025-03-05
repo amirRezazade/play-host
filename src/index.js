@@ -1,7 +1,22 @@
 const navItems = document.querySelectorAll("#nav-items");
 const toggleMenu =document.querySelector('#toggle-menu')
 const toggleMenuBtn =document.querySelector('#toggle-menu-btn')
+const nav =document.querySelector('nav')
 
+
+
+
+window.addEventListener('scroll' , ()=>{
+  let navOffsetTop= window.scrollY  
+ if(navOffsetTop>= 70){
+ nav.style.backgroundColor='oklch(0.129 0.042 264.695)'
+ nav.style.paddingBlock='0px'
+}
+else{
+  nav.style.backgroundColor=''
+  nav.style.paddingBlock=''
+ }
+})
 
 toggleMenuBtn.addEventListener('click', ()=>{
     toggleMenu.classList.toggle('translate-x-3/2')
@@ -115,8 +130,6 @@ toggleMenuBtn.addEventListener('click', ()=>{
 
     }
 })
-
-
 navItems.forEach((elm) => {
   elm.addEventListener("click", (s) => {
     if(window.innerWidth<1024){
