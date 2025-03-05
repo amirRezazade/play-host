@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html dir="rtl">
+<html dir="rtl" class="overflow-x-hidden">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body dir="rtl" class="font-[iran-sans]">
-    <header class="h-screen w-screen relative overflow-hidden">
-      <nav class="bg-slate-950 py-0.5 px-6 flex justify-between items-center static top-0 z-50 text-white select-none lg:bg-transparent    xl:justify-evenly 2xl:px-20">
+  <body dir="rtl" class="font-[iran-sans] bg-slate-950 overflow-x-hidden">
+    <!-- start header section -->
+    <header class="h-screen w-screen relative overflow-hidden select-none">
+       <!-- start navbar section -->
+      <nav class="bg-slate-950 py-0.5 px-6 flex justify-between items-center w-full fixed top-0 z-100 text-white select-none lg:bg-transparent  xl:justify-evenly 2xl:px-20" >
         <a href="#" class="py-3 z-50">
           <img class="md:hidden" src="../img/navbar/logo-mobile.png" alt="" />
           <img
@@ -296,47 +298,224 @@
           </span>
         </a>
       </nav>
-      <div class="absolute min-h-screen w-screen top-0 flex items-center" style="background-color: rgba(0, 0, 0, 0.237);">
-        <div class="w-1/1 flex px-3 justify-between">
-          <span class="cursor-pointer">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="50" height="50">
-              <linearGradient id="RAeVX7AeerTpT9bZbDDc3a" x1="32" x2="32" y1="4.667" y2="58.458" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
-                <stop offset="0" stop-color="#1a6dff"/>
-                <stop offset="1" stop-color="#c822ff"/>
-              </linearGradient>
-              <path fill="url(#RAeVX7AeerTpT9bZbDDc3a)" d="M26.781,58H14.007c-0.814,0-1.542-0.486-1.854-1.238c-0.311-0.751-0.14-1.606,0.436-2.182 l21.915-21.871c0.188-0.189,0.294-0.441,0.294-0.709s-0.105-0.52-0.295-0.71L12.59,9.42c-0.576-0.575-0.747-1.431-0.437-2.182 C12.465,6.486,13.192,6,14.007,6h12.774c0.791,0,1.564,0.32,2.124,0.878l21.627,21.586C51.478,29.408,52,30.664,52,32 s-0.521,2.592-1.468,3.536L28.905,57.122C28.346,57.68,27.572,58,26.781,58z M14.007,8c-0.008,0-0.011,0.001-0.011,0.001 l21.92,21.874c1.172,1.172,1.172,3.078,0.001,4.249L14.002,55.996L26.781,56c0.265,0,0.524-0.107,0.712-0.294L49.12,34.12 C49.687,33.554,50,32.801,50,32s-0.313-1.554-0.88-2.12L27.493,8.294C27.305,8.107,27.046,8,26.781,8H14.007z"/>
-              <linearGradient id="RAeVX7AeerTpT9bZbDDc3b" x1="32.384" x2="32.384" y1="8.333" y2="56.094" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
-                <stop offset="0" stop-color="#6dc7ff"/>
-                <stop offset="1" stop-color="#e6abff"/>
-              </linearGradient>
-              <path fill="url(#RAeVX7AeerTpT9bZbDDc3b)" d="M44.71,34.12L25.111,53.709C24.925,53.895,24.672,54,24.408,54H19.18l20.576-20.586 c0.781-0.781,0.781-2.048,0-2.829L19.18,10h5.225c0.265,0,0.52,0.105,0.708,0.293L44.71,29.88C45.88,31.05,45.88,32.95,44.71,34.12z"/>
-            </svg>
-          </span>
-          <span class="cursor-pointer">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="50" height="50">
-              <linearGradient id="oeSK2TF1wiguYWdafvfBTa" x1="32" x2="32" y1="4.833" y2="59.946" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
-                <stop offset="0" stop-color="#1a6dff"/>
-                <stop offset="1" stop-color="#c822ff"/>
-              </linearGradient>
-              <path fill="url(#oeSK2TF1wiguYWdafvfBTa)" d="M49.993,58H37.219c-0.791,0-1.564-0.32-2.124-0.878L13.468,35.536 C12.522,34.592,12,33.337,12,32.001s0.521-2.592,1.468-3.537L35.095,6.879C35.653,6.32,36.428,6,37.219,6h12.774 c0.814,0,1.542,0.486,1.854,1.238c0.311,0.751,0.14,1.606-0.436,2.182L29.496,31.292c-0.189,0.188-0.294,0.44-0.294,0.709 c0,0.268,0.104,0.52,0.295,0.708L51.41,54.58c0.576,0.575,0.747,1.431,0.437,2.182C51.535,57.514,50.808,58,49.993,58z M37.219,8 c-0.265,0-0.524,0.107-0.711,0.294L14.88,29.88C14.313,30.446,14,31.2,14,32.001s0.313,1.553,0.88,2.119l21.627,21.586 C36.695,55.893,36.954,56,37.219,56h12.774L28.084,34.125c-0.568-0.567-0.882-1.322-0.882-2.124c0-0.803,0.313-1.558,0.881-2.125 L49.998,8.004L49.993,8H37.219z"/>
-              <linearGradient id="oeSK2TF1wiguYWdafvfBTb" x1="31.616" x2="31.616" y1="9.167" y2="55.237" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
-                <stop offset="0" stop-color="#6dc7ff"/>
-                <stop offset="1" stop-color="#e6abff"/>
-              </linearGradient>
-              <path fill="url(#oeSK2TF1wiguYWdafvfBTb)" d="M19.29,34.12l19.599,19.588C39.075,53.895,39.328,54,39.592,54h5.228L24.244,33.415 c-0.781-0.781-0.781-2.048,0-2.829L44.82,10h-5.225c-0.265,0-0.52,0.106-0.708,0.293L19.29,29.88 C18.12,31.05,18.12,32.95,19.29,34.12z"/>
-            </svg>
-          </span>
-        </div>
-        <div class="absolute bottom-12 left-12">
+       <!-- finish navbar section -->
+       <!-- start slider btn section -->
+       <div class="absolute z-40 top-1/2 w-1/1 flex px-3 justify-between ">
+        <span class="cursor-pointer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="50" height="50">
+            <linearGradient id="RAeVX7AeerTpT9bZbDDc3a" x1="32" x2="32" y1="4.667" y2="58.458" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+              <stop offset="0" stop-color="#1a6dff"/>
+              <stop offset="1" stop-color="#c822ff"/>
+            </linearGradient>
+            <path fill="url(#RAeVX7AeerTpT9bZbDDc3a)" d="M26.781,58H14.007c-0.814,0-1.542-0.486-1.854-1.238c-0.311-0.751-0.14-1.606,0.436-2.182 l21.915-21.871c0.188-0.189,0.294-0.441,0.294-0.709s-0.105-0.52-0.295-0.71L12.59,9.42c-0.576-0.575-0.747-1.431-0.437-2.182 C12.465,6.486,13.192,6,14.007,6h12.774c0.791,0,1.564,0.32,2.124,0.878l21.627,21.586C51.478,29.408,52,30.664,52,32 s-0.521,2.592-1.468,3.536L28.905,57.122C28.346,57.68,27.572,58,26.781,58z M14.007,8c-0.008,0-0.011,0.001-0.011,0.001 l21.92,21.874c1.172,1.172,1.172,3.078,0.001,4.249L14.002,55.996L26.781,56c0.265,0,0.524-0.107,0.712-0.294L49.12,34.12 C49.687,33.554,50,32.801,50,32s-0.313-1.554-0.88-2.12L27.493,8.294C27.305,8.107,27.046,8,26.781,8H14.007z"/>
+            <linearGradient id="RAeVX7AeerTpT9bZbDDc3b" x1="32.384" x2="32.384" y1="8.333" y2="56.094" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+              <stop offset="0" stop-color="#6dc7ff"/>
+              <stop offset="1" stop-color="#e6abff"/>
+            </linearGradient>
+            <path fill="url(#RAeVX7AeerTpT9bZbDDc3b)" d="M44.71,34.12L25.111,53.709C24.925,53.895,24.672,54,24.408,54H19.18l20.576-20.586 c0.781-0.781,0.781-2.048,0-2.829L19.18,10h5.225c0.265,0,0.52,0.105,0.708,0.293L44.71,29.88C45.88,31.05,45.88,32.95,44.71,34.12z"/>
+          </svg>
+        </span>
+        <span class="cursor-pointer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="50" height="50">
+            <linearGradient id="oeSK2TF1wiguYWdafvfBTa" x1="32" x2="32" y1="4.833" y2="59.946" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+              <stop offset="0" stop-color="#1a6dff"/>
+              <stop offset="1" stop-color="#c822ff"/>
+            </linearGradient>
+            <path fill="url(#oeSK2TF1wiguYWdafvfBTa)" d="M49.993,58H37.219c-0.791,0-1.564-0.32-2.124-0.878L13.468,35.536 C12.522,34.592,12,33.337,12,32.001s0.521-2.592,1.468-3.537L35.095,6.879C35.653,6.32,36.428,6,37.219,6h12.774 c0.814,0,1.542,0.486,1.854,1.238c0.311,0.751,0.14,1.606-0.436,2.182L29.496,31.292c-0.189,0.188-0.294,0.44-0.294,0.709 c0,0.268,0.104,0.52,0.295,0.708L51.41,54.58c0.576,0.575,0.747,1.431,0.437,2.182C51.535,57.514,50.808,58,49.993,58z M37.219,8 c-0.265,0-0.524,0.107-0.711,0.294L14.88,29.88C14.313,30.446,14,31.2,14,32.001s0.313,1.553,0.88,2.119l21.627,21.586 C36.695,55.893,36.954,56,37.219,56h12.774L28.084,34.125c-0.568-0.567-0.882-1.322-0.882-2.124c0-0.803,0.313-1.558,0.881-2.125 L49.998,8.004L49.993,8H37.219z"/>
+            <linearGradient id="oeSK2TF1wiguYWdafvfBTb" x1="31.616" x2="31.616" y1="9.167" y2="55.237" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+              <stop offset="0" stop-color="#6dc7ff"/>
+              <stop offset="1" stop-color="#e6abff"/>
+            </linearGradient>
+            <path fill="url(#oeSK2TF1wiguYWdafvfBTb)" d="M19.29,34.12l19.599,19.588C39.075,53.895,39.328,54,39.592,54h5.228L24.244,33.415 c-0.781-0.781-0.781-2.048,0-2.829L44.82,10h-5.225c-0.265,0-0.52,0.106-0.708,0.293L19.29,29.88 C18.12,31.05,18.12,32.95,19.29,34.12z"/>
+          </svg>
+        </span>
+      </div>
+             <!-- finish slider btn section -->
+
+           <!-- start header slider-number section  -->
+        <div class="absolute bottom-12 left-12 font-[iran-num] z-10">
           <span class="text-white text-4xl">1</span>
           <span class="text-stone-400 text-xl">/ 4</span>
         </div>
+           <!-- finish header slider-number section  -->
+            <!-- start header slider section  -->
+      <div class="flex min-h-screen w-auto top-0  translate-x-  text-white">
+        <div class="w-screen h-screen shrink-0 bg-[url(../img/header/1.webp)] bg-blend-overlay bg-cover relative flex flex-col justify-center items-center lg:items-start lg:pr-25" style="background-color: rgba(0, 0, 0, 0.237);" >
+          <div class="absolute  w-1/1 h-auto z-30 px-10 sm:w-3/4 sm:px-0 lg:w-2/4">
+            <div class="inline-flex items-center gap-3 w-auto  border-1 px-3 py-1 border-gray-300 rounded-full ">
+              <span class="relative flex size-4">
+                <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-indigo-400 opacity-75"></span>
+                <span class="relative inline-flex size-4 rounded-full bg-indigo-500"></span>
+              </span>
+              <span > سرور ها در دسترس هستند</span>
+            </div>
+            <div class="my-7 flex flex-col gap-6 pl-10">
+              <h2 class="font-[kalameh-bold] text-5xl bg-gradient-to-b from-white to-gray-400 h-15 bg-clip-text text-transparent lg:text-6xl lg:h-20">اودیسه کهکشانی</h2>
+              <p class="text-justify text-white opacity-70 leading-7 ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+            </div>
+            <div class="flex flex-col gap-5">
+              <span class="text-white opacity-70 text-sm">شروع قیمت از </span>
+              <div>
+                <span class="text-indigo-500">ماهانه/</span>
+                <span class="font-[kalameh] text-5xl bg-gradient-to-b from-white to-gray-400 h-15 bg-clip-text text-transparent">9,900,000</span>
+                <span class="text-indigo-500"> تومان</span>
+              </div>
+              <button  class="group custom-shadow-2 inline mt-4 max-h-9 w-70 cursor-pointer group overflow-hidden  py-1 px-3 z-50 text-base rounded  font-[kalameh] transition-all duration-300 ease-in bg-gradient-to-r from-indigo-700 to-indigo-500 ">
+                <span class="flex flex-col gap-3 -translate-y-3/5 transition-all duration-200 ease-in group-hover:translate-y-0">
+                  <span>هم اکنون سرور بازی خود را سفارش دهید</span>
+                  <span>هم اکنون سرور بازی خود را سفارش دهید</span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="w-screen h-screen shrink-0 bg-[url(../img/header/2.webp)] bg-blend-overlay bg-cover relative flex flex-col justify-center items-center lg:items-start lg:pr-25" style="background-color: rgba(0, 0, 0, 0.237);">
+          <div class="absolute  w-1/1 h-auto z-30 px-10 sm:w-3/4 sm:px-0 lg:w-2/4">
+            <div class="inline-flex items-center gap-3 w-auto  border-1 px-3 py-1 border-gray-300 rounded-full ">
+              <span class="relative flex size-4">
+                <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-indigo-400 opacity-75"></span>
+                <span class="relative inline-flex size-4 rounded-full bg-indigo-500"></span>
+              </span>
+              <span > سرور ها در دسترس هستند</span>
+            </div>
+            <div class="my-7 flex flex-col gap-6 pl-10">
+              <h2 class="font-[kalameh-bold] text-5xl bg-gradient-to-b from-white to-gray-400 h-15 bg-clip-text text-transparent lg:text-6xl lg:h-20">مسابقه مرموز</h2>
+              <p class="text-justify text-white opacity-70 leading-7 ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+            </div>
+            <div class="flex flex-col gap-5">
+              <span class="text-white opacity-70 text-sm">شروع قیمت از </span>
+              <div>
+                <span class="text-indigo-500">ماهانه/</span>
+                <span class="font-[kalameh] text-5xl bg-gradient-to-b from-white to-gray-400 h-15 bg-clip-text text-transparent">1,200,000</span>
+                <span class="text-indigo-500"> تومان</span>
+              </div>
+              <button  class="group custom-shadow-2 inline mt-4 max-h-9 w-70 cursor-pointer group overflow-hidden  py-1 px-3 z-50 text-base rounded  font-[kalameh] transition-all duration-300 ease-in bg-gradient-to-r from-indigo-700 to-indigo-500 ">
+                <span class="flex flex-col gap-3 -translate-y-3/5 transition-all duration-200 ease-in group-hover:translate-y-0">
+                  <span>هم اکنون سرور بازی خود را سفارش دهید</span>
+                  <span>هم اکنون سرور بازی خود را سفارش دهید</span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="w-screen h-screen shrink-0 bg-[url(../img/header/3.webp)] bg-blend-overlay bg-cover relative flex flex-col justify-center items-center lg:items-start lg:pr-25" style="background-color: rgba(0, 0, 0, 0.237);">
+          <div class="absolute  w-1/1 h-auto z-30 px-10 sm:w-3/4 sm:px-0 lg:w-2/4">
+            <div class="inline-flex items-center gap-3 w-auto  border-1 px-3 py-1 border-gray-300 rounded-full ">
+              <span class="relative flex size-4">
+                <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-indigo-400 opacity-75"></span>
+                <span class="relative inline-flex size-4 rounded-full bg-indigo-500"></span>
+              </span>
+              <span > سرور ها در دسترس هستند</span>
+            </div>
+            <div class="my-7 flex flex-col gap-6 pl-10">
+              <h2 class="font-[kalameh-bold] text-5xl bg-gradient-to-b from-white to-gray-400 h-15 bg-clip-text text-transparent lg:text-6xl lg:h-20">خشم خاموش</h2>
+              <p class="text-justify text-white opacity-70 leading-7 ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+            </div>
+            <div class="flex flex-col gap-5">
+              <span class="text-white opacity-70 text-sm">شروع قیمت از </span>
+              <div>
+                <span class="text-indigo-500">ماهانه/</span>
+                <span class="font-[kalameh] text-5xl bg-gradient-to-b from-white to-gray-400 h-15 bg-clip-text text-transparent">1,499,000</span>
+                <span class="text-indigo-500"> تومان</span>
+              </div>
+              <button  class="group custom-shadow-2 inline mt-4 max-h-9 w-70 cursor-pointer group overflow-hidden  py-1 px-3 z-50 text-base rounded  font-[kalameh] transition-all duration-300 ease-in bg-gradient-to-r from-indigo-700 to-indigo-500 ">
+                <span class="flex flex-col gap-3 -translate-y-3/5 transition-all duration-200 ease-in group-hover:translate-y-0">
+                  <span>هم اکنون سرور بازی خود را سفارش دهید</span>
+                  <span>هم اکنون سرور بازی خود را سفارش دهید</span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="w-screen h-screen shrink-0 bg-[url(../img/header/4.webp)] bg-blend-overlay bg-cover relative flex flex-col justify-center items-center lg:items-start lg:pr-25" style="background-color: rgba(0, 0, 0, 0.237);">
+          <div class="absolute  w-1/1 h-auto z-30 px-10 sm:w-3/4 sm:px-0 lg:w-2/4">
+            <div class="inline-flex items-center gap-3 w-auto  border-1 px-3 py-1 border-gray-300 rounded-full ">
+              <span class="relative flex size-4">
+                <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-indigo-400 opacity-75"></span>
+                <span class="relative inline-flex size-4 rounded-full bg-indigo-500"></span>
+              </span>
+              <span > سرور ها در دسترس هستند</span>
+            </div>
+            <div class="my-7 flex flex-col gap-6 pl-10">
+              <h2 class="font-[kalameh-bold] text-5xl bg-gradient-to-b from-white to-gray-400 h-15 bg-clip-text text-transparent lg:text-6xl lg:h-20">سیاه چال فانک</h2>
+              <p class="text-justify text-white opacity-70 leading-7 ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+            </div>
+            <div class="flex flex-col gap-5">
+              <span class="text-white opacity-70 text-sm">شروع قیمت از </span>
+              <div>
+                <span class="text-indigo-500">ماهانه/</span>
+                <span class="font-[kalameh] text-5xl bg-gradient-to-b from-white to-gray-400 h-15 bg-clip-text text-transparent">1,599,000</span>
+                <span class="text-indigo-500"> تومان</span>
+              </div>
+              <button  class="group custom-shadow-2 inline mt-4 max-h-9 w-70 cursor-pointer group overflow-hidden  py-1 px-3 z-50 text-base rounded  font-[kalameh] transition-all duration-300 ease-in bg-gradient-to-r from-indigo-700 to-indigo-500 ">
+                <span class="flex flex-col gap-3 -translate-y-3/5 transition-all duration-200 ease-in group-hover:translate-y-0">
+                  <span>هم اکنون سرور بازی خود را سفارش دهید</span>
+                  <span>هم اکنون سرور بازی خود را سفارش دهید</span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="flex min-h-screen w-screen top-0 overflow-auto absolute -z-30">
-        <div class="w-screen h-screen shrink-0 bg-[url(../img/header/1.webp)] bg-cover"></div>
-      </div>
-    </header>
+                  <!-- finish header slider section  -->
 
+    </header>
+ <!-- finish header section --> 
+
+ <!-- start premium servers section  -->
+
+ <section class="py-15 w-full text-white lg:py-35 ">
+  <div class="xl:max-w-10/12 px-10 mx-auto lg:px-4">
+   <span class="py-1.5 px-3.5 border-2 rounded-full border-gray-600">ویژگی های باورنکردنی</span>
+   <h2 class="font-[kalameh] text-3xl my-7 bg-gradient-to-b from-white to-stone-400 bg-clip-text text-transparent lg:text-4xl lg:h-15 xl:text-5xl xl:h">سرور بازی پریمیوم</h2>
+
+   <div class="flex  flex-wrap gap-10 md:justify-center md:gap-0 md:gap-y-10">
+    <div class=" flex flex-col gap-4 w-auto md:max-w-1/2 md:pl-7 lg:w-1/4 lg:text-justify xl:max-w-78">
+      <img class="size-18" src="../img/premium-section/1.png" alt="">
+      <h3 class="font-[kalameh] text-xl">راه اندازی فوق العاده سریع</h3>
+      <p class="opacity-60 leading-7  ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است      </p>
+    </div>
+    <div class=" flex flex-col gap-4 w-auto md:max-w-1/2 md:pl-7 lg:w-1/4 lg:text-justify xl:max-w-78">
+      <img class="size-18" src="../img/premium-section/2.png" alt="">
+      <h3 class="font-[kalameh] text-xl">سخت افزار پرمیوم</h3>
+      <p class="opacity-60 leading-7  ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است      </p>
+    </div>
+    <div class=" flex flex-col gap-4 w-auto md:max-w-1/2 md:pl-7 lg:w-1/4 lg:text-justify xl:max-w-78">
+      <img class="size-18" src="../img/premium-section/3.png" alt="">
+      <h3 class="font-[kalameh] text-xl">محافظت DDos</h3>
+      <p class="opacity-60 leading-7  ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است      </p>
+    </div>
+    <div class=" flex flex-col gap-4 w-auto md:max-w-1/2 md:pl-7 lg:w-1/4 lg:text-justify xl:max-w-78">
+      <img class="size-18" src="../img/premium-section/4.png" alt="">
+      <h3 class="font-[kalameh] text-xl">پشتیبانی سریع</h3>
+      <p class="opacity-60 leading-7  ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است      </p>
+    </div>
+   
+    
+
+    
+  </div>
+  </div>
+
+  <div class=" flex justify-center px-5  my-30 md:px-10 lg:my-50 lg:px-4">
+    <div class="xl:max-w-10/12 w-full px-10 py-12 bg-[url(../img/premium-section/1.webp)] bg-fixed bg-center bg-no-repeat bg-cover flex flex-col gap-3 md:gap-5 lg:relative  lg:py-15">
+      <span class="py-1.5 px-3.5 border-2 rounded-full w-44 border-gray-600">بازی خود را شروع کنید</span>
+      <h2 class="font-[kalameh-bold] text-2xl bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent lg:text-4xl lg:w-1/2">قابلیت کامل بازی خود را باز کنید    </h2>
+      <p class="opacity-60 leading-7 text-sm text-justify md:w-4/5 lg:w-1/2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.    </p>
+      <button  class="group custom-shadow-2 inline mt-4 max-h-9 w-70 cursor-pointer group overflow-hidden  py-1 px-3 z-50 text-base rounded  font-[kalameh] transition-all duration-300 ease-in bg-gradient-to-r from-indigo-700 to-indigo-500 ">
+        <span class="flex flex-col gap-3 -translate-y-3/5 transition-all duration-200 ease-in group-hover:translate-y-0">
+          <span>هم اکنون سرور بازی خود را سفارش دهید</span>
+          <span>هم اکنون سرور بازی خود را سفارش دهید</span>
+        </span>
+      </button>
+        <img class="hidden -scale-x-100 lg:block lg:absolute left-0 bottom-0" src="../img/premium-section/avatar.webp" alt="">
+
+    </div>
+  </div>
+  </section>
+ <!-- finish premium servers section  -->
+ 
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <script src="index.js"></script>
   </body>
 </html>
