@@ -2,6 +2,7 @@ const navItems = document.querySelectorAll("#nav-items");
 const toggleMenu =document.querySelector('#toggle-menu')
 const toggleMenuBtn =document.querySelector('#toggle-menu-btn')
 const nav =document.querySelector('nav')
+const accordions = document.querySelectorAll('#accordion')
 
 
 
@@ -154,3 +155,25 @@ navItems.forEach((elm) => {
   
   });
 });
+
+accordions.forEach(elem=>{
+  elem.addEventListener('click',()=>{
+    accordions.forEach(e=>{
+      if(e!=elem){
+        e.parentElement.style.height='48px'
+        e.querySelector('svg').classList.remove('rotate-180')
+      }
+    })
+    console.log(elem.querySelector('svg'));
+    
+    if(elem.parentElement.clientHeight < 50){
+      elem.parentElement.style.height=elem.parentElement.scrollHeight+'px'
+   elem.querySelector('svg').classList.add('rotate-180')
+  }else{
+    elem.parentElement.style.height='48px'
+    elem.querySelector('svg').classList.remove('rotate-180')
+
+    }
+    
+  })
+})
